@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: #0f172a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  background: #020617;
+  padding: 30px;
+  border-radius: 14px;
+  width: 320px;
+  text-align: center;
+  color: white;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background: #6366f1;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #4f46e5;
+}
+
+#qrBox {
+  margin-top: 20px;
+}
